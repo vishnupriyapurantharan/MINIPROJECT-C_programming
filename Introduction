@@ -1,0 +1,84 @@
+ NUMBER SYSTEM CONVERSION
+ We can change a number from one number system to another number system.
+
+As, we have four types of number systems so each one can be converted into the remaining three systems. There are the following conversions possible in Number System
+
+Binary to other Number Systems.
+Decimal to other Number Systems.
+Octal to other Number Systems.
+Hexadecimal to other Number Systems.
+
+Binary to other Number Systems
+There are three conversions possible for binary number, i.e., binary to decimal, binary to octal, and binary to hexadecimal. The conversion process of a binary number to decimal differs from the remaining others. Let's take a detailed discussion on Binary Number System conversion.
+
+Binary to Decimal Conversion
+The process of converting binary to decimal is quite simple. The process starts from multiplying the bits of binary number with its corresponding positional weights. And lastly, we add all those products.
+
+Binary to Octal Conversion
+The base numbers of binary and octal are 2 and 8, respectively. In a binary number, the pair of three bits is equal to one octal digit. There are only two steps to convert a binary number into an octal number which are as follows:
+
+1. In the first step, we have to make the pairs of three bits on both sides of the binary point. If there will be one or two bits left in a pair of three bits pair, we add the required number of zeros on extreme sides.
+2. In the second step, we write the octal digits corresponding to each pair.
+
+Binary to Hexadecimal Conversion
+The base numbers of binary and hexadecimal are 2 and 16, respectively. In a binary number, the pair of four bits is equal to one hexadecimal digit. There are also only two steps to convert a binary number into a hexadecimal number which are as follows:
+
+1. In the first step, we have to make the pairs of four bits on both sides of the binary point. If there will be one, two, or three bits left in a pair of four bits pair, we add the required number of zeros on extreme sides.
+2. In the second step, we write the hexadecimal digits corresponding to each pair.
+
+Decimal to other Number System
+The decimal number can be an integer or floating-point integer. When the decimal number is a floating-point integer, then we convert both part (integer and fractional) of the decimal number in the isolated form(individually). There are the following steps that are used to convert the decimal number into a similar number of any base 'r'.
+
+In the first step, we perform the division operation on integer and successive part with base 'r'. We will list down all the remainders till the quotient is zero. Then we find out the remainders in reverse order for getting the integer part of the equivalent number of base 'r'. In this, the least and most significant digits are denoted by the first and the last remainders.
+In the next step, the multiplication operation is done with base 'r' of the fractional and successive fraction. The carries are noted until the result is zero or when the required number of the equivalent digit is obtained. For getting the fractional part of the equivalent number of base 'r', the normal sequence of carrying is considered.
+
+Decimal to Binary Conversion
+For converting decimal to binary, there are two steps required to perform, which are as follows:
+
+In the first step, we perform the division operation on the integer and the successive quotient with the base of binary(2).
+Next, we perform the multiplication on the integer and the successive quotient with the base of binary(2).
+
+Decimal to Octal Conversion
+For converting decimal to octal, there are two steps required to perform, which are as follows:
+
+In the first step, we perform the division operation on the integer and the successive quotient with the base of octal(8).
+Next, we perform the multiplication on the integer and the successive quotient with the base of octal(8).
+
+Decimal to hexadecimal conversion
+For converting decimal to hexadecimal, there are two steps required to perform, which are as follows:
+In the first step, we perform the division operation on the integer and the successive quotient with the base of hexadecimal (16).
+Next, we perform the multiplication on the integer and the successive quotient with the base of hexadecimal (16).
+
+Octal to other Number System
+Like binary and decimal, the octal number can also be converted into other number systems. The process of converting octal to decimal differs from the remaining one. Let's start understanding how conversion is done.
+
+Octal to Decimal Conversion
+The process of converting octal to decimal is the same as binary to decimal. The process starts from multiplying the digits of octal numbers with its corresponding positional weights. And lastly, we add all those products.
+
+Octal to Binary Conversion
+The process of converting octal to binary is the reverse process of binary to octal. We write the three bits binary code of each octal number digit.
+
+Octal to hexadecimal conversion
+For converting octal to hexadecimal, there are two steps required to perform, which are as follows:
+
+In the first step, we will find the binary equivalent of number 25.
+Next, we have to make the pairs of four bits on both sides of the binary point. If there will be one, two, or three bits left in a pair of four bits pair, we add the required number of zeros on extreme sides and write the hexadecimal digits corresponding to each pair.
+
+Hexa-decimal to other Number System
+Like binary, decimal, and octal, hexadecimal numbers can also be converted into other number systems. The process of converting hexadecimal to decimal differs from the remaining one. Let's start understanding how conversion is done.
+
+Hexa-decimal to Decimal Conversion
+The process of converting hexadecimal to decimal is the same as binary to decimal. The process starts from multiplying the digits of hexadecimal numbers with its corresponding positional weights. And lastly, we add all those products. 
+
+Hexadecimal to Binary Conversion
+The process of converting hexadecimal to binary is the reverse process of binary to hexadecimal. We write the four bits binary code of each hexadecimal number digit.
+
+Hexadecimal to Octal Conversion
+For converting hexadecimal to octal, there are two steps required to perform, which are as follows:
+
+In the first step, we will find the binary equivalent of the hexadecimal number.
+Next, we have to make the pairs of three bits on both sides of the binary point. If there will be one or two bits left in a pair of three bits pair, we add the required number of zeros on extreme sides and write the octal digits corresponding to each pair.
+
+
+
+
