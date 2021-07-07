@@ -63,3 +63,50 @@ Here A is 10, B is 11, C is 12, D is 14, E is 15 and F is 16.
 * Low profits.
 * More complexicities
 
+# 4W&#39;s and 1&#39;H
+
+## Who:
+**Who can use this calculator?**
+
+    Any person who want to do the number system conversions.
+     
+## What:
+**What does the project is about ?**
+
+    The project is about the Number system conversion calculator which makes the user to get the calculation done without any time taking.  
+
+## When:
+**When will it get completed ?**
+
+    The Project will be completed by 14th july 2021.
+
+## Where:
+**Where is the project done ?**
+
+    The Project is implemented on C program platform ( VS Code) based on Input/Output .
+
+## How:
+**How to achieve the Target ?**
+
+    To achieve the target
+        1. A good knowledge in file handling in C is a must.
+        2. Basic input output based functions
+        3. Proficiency in Structures and pointers.
+        4. Logical and analytical knowledge.
+        
+# Detail requirements
+## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| 1 | The calculator with the options produced. | Techincal | TBD-S1 | 
+| 2 | Users may choose their preffered conversion.| Techincal | TBD-S1 |
+| 3 | Users can compute their number system conversion calculations. | Techincal | TBD-S1 |
+
+## Low Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| 1 | A page will be open where users can see the name of the conversions. | Techincal | TBD-S1 | 
+| 2 | The users can select the preferred calculation from the list given or may choose all the conversions| Techincal. | TBD-S1 |
+| 3 | After that the students can choose the conversion and enter the number to be converted. | Techincal | TBD-S1 |
+| 4 | The calculated results will be generated. | Techincal | TBD-S1 |        
+        
