@@ -48,7 +48,7 @@ Here A is 10, B is 11, C is 12, D is 14, E is 15 and F is 16.
 
 ## SWOT ANALYSIS
 
-![alt text](
+![alt text](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/blob/e5ba1a14a50cd6dc19934ea219b2676a31cfce24/Requirements/SWOT%20ANALYSIS.PNG)
 
 
 ### Strengths
