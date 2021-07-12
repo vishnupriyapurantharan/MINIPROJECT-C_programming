@@ -1,13 +1,12 @@
-name: Valgrind
-
+name: Dynamic Code Analysis Valgrind
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
@@ -18,6 +17,7 @@ jobs:
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
-      run: |
-        make test -C Implementation/
-        valgrind ./Implementation/build/Test_MINIPROJECT-STEPIN-298287.out
+      run: make -C Implementation/ test
+    - name: make valgrind
+      run: valgrind ./Implementation/Build/Test_MINIPROJECT-STEPIN-298287.out
+        
