@@ -2,6 +2,9 @@
 
 NUMBER CONVERSION SYSTEM
 
+Build | Code Quality | Unity | [Git Inspector]| Code Coverage
+------|----------|-------|--------------|--------|
+
 [![cppcheck-action](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/cppcheck.yml/badge.svg?branch=master)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/cppcheck.yml)
 
 [![Contribution Check - Git Inspector](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/gitinspector.yml/badge.svg?branch=master)]
