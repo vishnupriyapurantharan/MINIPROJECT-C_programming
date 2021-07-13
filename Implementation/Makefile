@@ -32,7 +32,7 @@ pro: main.c $(SRC)
 run: pro.exe
 	./pro.exe
 
-test: $(SRC) test_files/test_main.c  $(UNITY)
+test: $(SRC) Test/test_mini_project.c  $(UNITY)
 	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
