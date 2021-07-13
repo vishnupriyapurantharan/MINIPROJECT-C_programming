@@ -20,3 +20,12 @@ NUMBER CONVERSION SYSTEM
 [![CI-Coverage](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/gcov.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/gcov.yml)
 
 [![C/C++ CI - Build Status](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/c-cpp.yml)
+
+
+## Folder Structure
+Folder             | Description
+------------------ | -----------------------------------------
+`1_Requirements`   | Files detailing requirements
+`2_Design`         | Documents specifying design details
+`3_Implementation` | Codes and documentation
+`4_Test_plan`      | Files with test plans and procedures
