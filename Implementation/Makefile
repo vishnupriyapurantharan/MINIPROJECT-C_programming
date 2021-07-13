@@ -1,25 +1,8 @@
-TEST_PROJ_NAME = MINIPROJECT-STEPIN-298287
-BUILD_DIR = Build
-CFLAGS = -Wall -g
+PROJ_NAME = MINIPROJECT-STEPIN-298287
 
-SRC = Source_code/mini_project.c\
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-INC = inc
-
-
-$(BUILD_DIR):
-	mkdir $(BUILD_DIR)
-
-INC_TEST = -Iinc -Iunity
-
-
-OUTPUT = $(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
-
-TEST_SRC = src/*c\
-Test/test_mini_project.c\
-unity/unity.c\
-
-TEST_OUTPUT = $(BUILD_DIR)/Test_$(TEST_PROJ_NAME).$(EXEC)
+BUILD_DIR = ./Build
 
 ifdef OS
    RM = del /q
@@ -31,25 +14,42 @@ else
       FixPath = $1
 	  EXEC = out
    endif
-endif
+endif 
 
-all : $(SRC) $(BUILD_DIR)
-	gcc -I $(INC) $(SRC) -o $(call FixPath,$(OUTPUT)) 
 
-run : all
-	$(call FixPath,$(OUTPUT))
+SRC =  Source_code/mini_project.c
 
-clean :
-	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+INC = -Iinc\
+-Iunity
 
-valgrind :
-	valgrind $(call FixPath,$(TEST_OUTPUT))
+UNITY = unity/unity.c 
 
-coverageCheck:$(BUILD_DIR)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC_TEST) -o $(OUTPUT)
-	./$(OUTPUT)
- 
-test:$(BUILD_DIR)
-	gcc $(TEST_SRC) $(INC_TEST) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
-	
+testest_filest = Test/test_mini_project.c
+
+pro: main.c $(SRC) 
+	gcc main.c $(SRC) -I $(INC) -o pro.exe
+
+run: pro.exe
+	./pro.exe
+
+test: $(SRC) test_files/test_main.c  $(UNITY)
+	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+
+coverage:${PROJECT_NAME}
+	gcc -fprofile-arcs -ftest-coverage main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a main.c $(SRC) $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(RM) *.gcno
+	$(RM) *.gcov
+	$(RM) *.gcda
+
+   
+#test1: test_files\test_main.c $(SRC) unity\unity.c 
+#	gcc test_files\test_main.c $(SRC) unity\unity.c -I $(INC) -I $(UNITY) -o test.exe
+
+#test_run: test.exe
+#	./test.exe
+
+clean:
+	$(RM) *.exe
