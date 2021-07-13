@@ -16,3 +16,4 @@ NUMBER CONVERSION SYSTEM
 [![Unit Testing - Unity](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/unity.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/unity.yml)
 
 [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/CodeQuality_Dynamic.yml)
+[![CI-Coverage](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/gcov.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/gcov.yml)
