@@ -3,7 +3,6 @@ BUILD_DIR = Build
 CFLAGS = -Wall -g
 
 SRC = Source_code/mini_project.c\
-      src/*.c
 
 INC = inc
 
