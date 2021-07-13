@@ -13,7 +13,6 @@
 #include <stdio.h>
 #include <math.h>
 #include<string.h>
-#include <conio.h>
  
 long int Bin_to_Dec(long int); //1:BINARY TO DECIMAL
 long int Bin_to_Oct(long int); //2:BINARY TO OCTAL
