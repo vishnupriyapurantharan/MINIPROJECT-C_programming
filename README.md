@@ -14,3 +14,5 @@ NUMBER CONVERSION SYSTEM
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/89f8be4f586f45e283e499db1d2b5ffe)](https://www.codacy.com/gh/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vishnupriyapurantharan/MINIPROJECT-STEPIN-298287&amp;utm_campaign=Badge_Grade)
 
 [![Unit Testing - Unity](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/unity.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/unity.yml)
+
+[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/actions/workflows/CodeQuality_Dynamic.yml)
