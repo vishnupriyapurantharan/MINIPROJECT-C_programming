@@ -18,8 +18,7 @@ endif
 
 
 SRC =  main.c\
-       src/*.c
-
+       
 INC = -Iinc\
 -Iunity
 
