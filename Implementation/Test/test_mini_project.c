@@ -11,39 +11,39 @@ void tearDown()
 {
 }
 
-void test_Binary_to_Decimal(void)
+void test_Bin_to_Dec(void)
 {
-    TEST_ASSERT_EQUAL(4,Binary_to_Decimal(20));
+    TEST_ASSERT_EQUAL(4,Bin_to_Dec(20));
 
 }
 
-void test_Binary_to_Octal(void)
+void test_Bin_to_Oct(void)
 {
-    TEST_ASSERT_EQUAL(11,Binary_to_Octal(9));
+    TEST_ASSERT_EQUAL(11,Bin_to_Oct(9));
 
 }
 
-void test_Decimal_to_Binary(void)
+void test_Dec_to_Bin(void)
 {
-    TEST_ASSERT_EQUAL(1001,Decimal_to_Binary(9));
+    TEST_ASSERT_EQUAL(1001,Dec_to_Bin(9));
 
 }
 
-void test_Decimal_to_Octal(void)
+void test_Dec_to_Oct(void)
 {
-    TEST_ASSERT_EQUAL(11,Decimal_to_Octal(9));
+    TEST_ASSERT_EQUAL(11,Dec_to_Oct(9));
 
 }
 
-void test_Octal_to_Binary(void)
+void test_Oct_to_Bin(void)
 {
-    TEST_ASSERT_EQUAL(1001,Octal_to_Binary(9));
+    TEST_ASSERT_EQUAL(1001,Oct_to_Bin(9));
 
 }
 
-void test_Octal_to_Decimal(void)
+void test_Oct_to_Dec(void)
 {
-    TEST_ASSERT_EQUAL(9,Octal_to_Decimal(9));
+    TEST_ASSERT_EQUAL(9,Oct_to_Dec(9));
 
 }
 
@@ -53,12 +53,15 @@ int main()
     /* Initiate the Unity Test Framework */
     UNITY_BEGIN();
     /* Run Test functions */
-    RUN_TEST(test_Binary_to_Decimal);
-    RUN_TEST(test_Binary_to_Octal);
-    RUN_TEST(test_Decimal_to_Binary);
-    RUN_TEST(test_Decimal_to_Octal);
-    RUN_TEST(test_Octal_to_Binary);
-    RUN_TEST(test_Octal_to_Decimal);
+    RUN_TEST(test_Bin_to_Dec);
+    RUN_TEST(test_Bin_to_Oct);
+    RUN_TEST(test_Bin_to_Hex);
+    RUN_TEST(test_Dec_to_Bin);
+    RUN_TEST(test_Dec_to_Oct);
+    RUN_TEST(test_Dec_to_Hex);
+    RUN_TEST(test_Oct_to_Bin);
+    RUN_TEST(test_Oct_to_Dec);
+    RUN_TEST(test_Oct_to_Hex);
 
 
 
