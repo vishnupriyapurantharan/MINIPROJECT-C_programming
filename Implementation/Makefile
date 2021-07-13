@@ -17,7 +17,8 @@ else
 endif 
 
 
-SRC =  Source_code/mini_project.c
+SRC =  main.c\
+       src/*.c
 
 INC = -Iinc\
 -Iunity
