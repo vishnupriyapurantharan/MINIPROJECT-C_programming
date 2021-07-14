@@ -16,7 +16,7 @@
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test** |
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  L_01       |To click the number of our choice for converting the user input to their expected output (number system)|selecting any integer from 1-12|The type of conversion required by user is obtained|The type of conversion required by user is obtained|Requirement based |
-|  L_02       |To check whether figure appears after second wrong guess|  NA|Second Image should be printed|Second image was printed|Requirement based    |
+|  L_02       |To check whether the type of conversion is selected and user is able to give their input|Able to provide input from user end| Able to provide the output for the input given from user end|Able to provide the output for the input given from user end |Requirement based|
 |  L_03       |To check whether figure appears after third wrong guess|  NA|Third Image should be printed|Third image was printed|Requirement based    |
 |  L_04       |To check whether figure appears after fourth wrong guess|  NA|Fourth Image should be printed|Fourth image was printed|Requirement based |
 |  L_05       |To check whether figure appears after fifth wrong guess|  NA|Fifth Image should be printed|Fifth image was printed|Requirement based |
