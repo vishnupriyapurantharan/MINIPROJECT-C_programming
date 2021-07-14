@@ -94,3 +94,7 @@ Here A is 10, B is 11, C is 12, D is 14, E is 15 and F is 16.
         3. Proficiency in Structures and pointers.
         4. Logical and analytical knowledge.
         
+## Research:
+![researh](https://user-images.githubusercontent.com/36762668/125590206-ab92ce48-2b51-41b1-9734-3cae9ccaaee8.PNG)
+
+        
