@@ -61,7 +61,7 @@ int main()
             case 1:
                 printf("\n***BINARY TO DECIMAL***\n");
                 D:
-                printf("\nEnter the Number in Binary form (0s & 1s): ");[sudo] password for vishnupriyapurantharan:
+                printf("\nEnter the Number in Binary form (0s & 1s): ");
                 scanf("%ld",&bin);
                 // CHECKING INPUT IS IN BINARY FORM
                 check=bin;
