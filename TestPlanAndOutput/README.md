@@ -11,4 +11,8 @@
 |  H_05       | Conversion of decimal number 10 to hexadecimal  | 10| A| A |Requirement based |
 |  H_06       |Conversion of decimal number 0 to hexadecimal| 0|0|0|Boundary based    |
         
+## Table no 2: Low level test plan
 
+| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
+|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
+|  L_01       |To click the number of our choice for converting the user input to their expected output (number system)  |  selecting any integer from 1-12 |The type of conversion required by user is obtained|The type of conversion required by user is obtained|Requirement based |
