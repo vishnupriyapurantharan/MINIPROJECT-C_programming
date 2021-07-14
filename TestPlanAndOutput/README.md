@@ -17,8 +17,8 @@
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  L_01       |To click the number of our choice for converting the user input to their expected output (number system)  |  selecting any integer from 1-12 |The type of conversion required by user is obtained|The type of conversion required by user is obtained|Requirement based |
 
-|L_02         |To check whether the type of conversion is selected and user is able to give their input |Able to provide input from user end| Able to provide the output for the input given from user end| Requirement based |
+|  L_02        |To check whether the type of conversion is selected and user is able to give their input| Able to provide input from user end| Able to provide the output for the input given from user end|Able to provide the output for the input given from user end| Requirement based|
 
-|L_03         |To proceed whether to provide input again to convert the input from user end or to end the process|1| Start with another converion|  Start with another converion| Start with another converion|Requirement based |
+|  L_03        |To proceed whether to provide input again to convert the input from user end or to end the process|1| Start with another converion|  Start with another converion| Start with another converion|Requirement based|
 
-|L_04         |To proceed whether to provide input again to convert the input from user end or to end the process|0| Stop the process and end compilation|Stop the process and end compilation  |Stop the process and end compilatio |Requirement based |
+|L_04         |To proceed whether to provide input again to convert the input from user end or to end the process|0| Stop the process and end compilation|Stop the process and end compilation  |Stop the process and end compilatio |Requirement based|
