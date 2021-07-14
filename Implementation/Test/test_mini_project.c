@@ -62,8 +62,8 @@ int main()
     RUN_TEST(test_Oct_to_Bin);
     RUN_TEST(test_Oct_to_Dec);
     RUN_TEST(test_Oct_to_Hex);
-
-
+    RUN_TEST(test_Hex_to_Dec); 
+    RUN_TEST(test_Hex_to_Bin);  
 
     /* Close the Unity Test Framework */
     return UNITY_END();
