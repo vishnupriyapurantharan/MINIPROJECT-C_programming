@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <string.h>
-#include<stdlib.h>
+#include <math.h>
+#include<string.h>
+#include <conio.h>
 long int Bin_to_Dec(long int bin)
 {
     int rem,sum=0,i=0;
