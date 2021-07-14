@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+#include<string.h>
+#include <conio.h>
+
 long int Dec_to_Bin(long int dec)
 {
     int rem[50],i,len=0;
