@@ -10,8 +10,6 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 [![Code grade- ](https://www.code-inspector.com/project/24967/status/svg)](https://frontend.code-inspector.com/public/project/24967/MINIPROJECT-STEPIN-298287/dashboard)    [![Codacy Badge](https://app.codacy.com/project/badge/Grade/89f8be4f586f45e283e499db1d2b5ffe)](https://www.codacy.com/gh/vishnupriyapurantharan/MINIPROJECT-STEPIN-298287/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vishnupriyapurantharan/MINIPROJECT-STEPIN-298287&amp;utm_campaign=Badge_Grade)
 
 
-
-
 ## Folder Structure
 Folder             | Description
 ------------------ | -----------------------------------------
@@ -19,3 +17,9 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | Codes and documentation
 `4_Test_plan`      | Files with test plans and procedures
+
+## Contributors List and Summary
+
+|PS No. |  Name   |    Features    |No Test Cases|Test Case Pass|
+|:---:|:---:|:---:|:---:|:---:|
+|`298287` | VISHNU PRIYA P  | Complete project   | 8   | 8     |
