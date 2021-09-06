@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
 
     steps:
@@ -26,6 +26,5 @@ jobs:
     - name: Install gcov 
       run: sudo apt -y install gcovr
     - name: make 
-      run: make -C Implementation/ Test
     - name: GCov only
       run:  gcovr -r .
